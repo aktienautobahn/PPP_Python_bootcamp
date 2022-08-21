@@ -125,7 +125,7 @@ watermark_text.grid(column=1, row=2, sticky=W)
 
 watermark_text_size = Entry(width=5, highlightthickness=0)
 watermark_text_size.insert(0, string='15')
-watermark_text_size.grid(column=1, row=3, sticky=NW
+watermark_text_size.grid(column=1, row=3, sticky=NW)
 
 watermark_text_pos = Entry(width=10, highlightthickness=0)
 watermark_text_pos.insert(0, string='10,0')
